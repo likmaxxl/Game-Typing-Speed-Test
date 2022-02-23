@@ -1,0 +1,165 @@
+.playground {
+  font-family: 'Overpass', sans-serif;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgb(234, 236, 166);
+}
+
+@media all and (min-width:768px) {
+  .playground {
+    width: 70%;
+  }
+}
+
+@media all and (min-width:992px) {
+  .playground {
+    width: 60%;
+  }
+}
+
+@media all and (min-width:1200px) {
+  .playground {
+    width: 35%;
+  }
+}
+
+.hidden {
+  overflow-Y: hidden;
+}
+
+.head span {
+  display: block;
+  color: #980404;
+  vertical-align: 17px;
+  font-size: 14px;
+}
+
+.head,
+.level {
+  color: #980404;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+@media all and (min-width:992px){
+.head,
+.level{
+  font-size: 36px;
+}
+.head.span{
+  font-size:15px;
+}
+.head .bckgrHead{
+    padding: 50px 0;
+}
+.level{
+  padding:29px;
+}
+input{
+    font-size: 23px;
+}
+}
+
+.head .bckgrHead {
+  background: rgba(190, 236, 38, .8);
+  padding: 46px 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.head {
+  background-image: url("https://images.pexels.com/photos/48898/wood-cube-abc-cube-letters-48898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.level {
+  margin-top: 2px;
+  padding: 27px;
+  background: rgb(38, 236, 147);
+}
+
+/* .levelanim{
+  animation-name:myanim1;
+  animation-duration: 2s;
+}
+@keyframes myanim1 {
+  0%{
+  font-size: 25px;
+  }
+  50%{
+    font-size: 33px;
+  }
+  100%{
+    font-size: 25px;
+  }
+} */
+.word {
+  font-size: 34px;
+  text-align: center;
+  padding: 40px 0 25px 0;
+}
+
+.input {
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  font-size: 18px;
+  padding: 20px 10px;
+  width: 100%;
+  margin: 0 0 20px 0;
+  border-radius: 10px;
+}
+
+.timeScore {
+  justify-content: center;
+  display: flex;
+  padding: 20px 10px 20px 10px;
+  background: rgb(190, 236, 38);
+}
+
+.time {
+  font-size: 22px;
+  padding-left: 20px;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.score {
+  font-size: 22px;
+  padding-right: 20px;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.time span {
+  color: rgb(217, 54, 21);
+}
+
+.ratings {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  font-size: 13px;
+  padding: 22px 10px;
+  background-color: rgb(16, 17, 27);
+}
+
+.ratings span {
+  color: white;
+}
+
+.ratings span:nth-of-type(1) {
+  color: rgb(231, 148, 6);
+}
+
+.rtng {
+  color: rgb(255, 89, 164);
+  font-size: 23px;
+}
